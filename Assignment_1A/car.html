@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Car Selling </title>
+
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">All</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Models</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Account</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container d-lg-flex">
+        <div class="box-1 bg-light user">
+
+            <div class="box-inner-1 pb-3 mb-3 ">
+                <div class="d-flex justify-content-between mb-3 userdetails">
+                    <p class="fw-bold">Tesla S Car</p>
+                    <p class="fw-lighter">$ 2,11,000.00 M+</p>
+                </div>
+
+                <div class="img">
+                    <div class="img-item active"> <img
+                            src="https://tesla-cdn.thron.com/delivery/public/image/tesla/56cb8c41-e898-44ce-b6b7-fe9b9a05f529/bvlatuR/std/1200x628/MS-Social"
+                            class="d-block w-100"> </div>
+
+                </div>     
+            </div>
+        </div>
+
+        <div class="box-2 ">
+            <div class="box-inner-2">
+                <div>
+                    <p class="fw-bold">Payment Details</p>
+                    <p class="dis mb-3">Complete your purchase by providing your payment details</p>
+                </div>
+                <form action="">
+                    <div class="mb-3">
+                        <p class="dis fw-bold mb-2">Email address</p> <input class="form-control" type="email"
+                            value="pank@gmail.com">
+                    </div>
+                    <div>
+                        <p class="dis fw-bold mb-2">Card details</p>
+                        <div class="d-flex align-items-center justify-content-between card-atm border rounded">
+                            
+                            <input type="text" class="form-control"
+                                placeholder="Card Details">
+                            <div class="d-flex w-50">
+                                 <input type="text" class="form-control px-0" placeholder="MM/YY">
+                                <input type="password" maxlength=3 class="form-control px-0" placeholder="CVV">
+                            </div>
+                        </div>
+                        <div class="my-3 cardname">
+                            <p class="dis fw-bold mb-2">Cardholder name</p> 
+                            <input class="form-control" type="text">
+                        </div>
+                        <div class="address">
+                            <p class="dis fw-bold mb-3">Billing address</p> <select class="form-select"
+                                aria-label="Default select example">
+                                <option selected hidden>United States</option>
+                                <option value="1">India</option>
+                                <option value="2">Australia</option>
+                                <option value="3">America</option>
+                            </select>
+                            <div class="d-flex"> <input class="form-control zip" type="text" placeholder="ZIP"> <input
+                                    class="form-control state" type="text" placeholder="State"> </div>
+
+                            <div class="d-flex flex-column dis my-3">
+                                <div class="d-flex align-items-center justify-content-between mb-2">
+                                    <p>Delivery Charges</p>
+                                    <p>$1,000.00</p>
+                                </div>
+
+                                <div class="d-flex align-items-center justify-content-between mb-2">
+                                    <p class="fw-bold">Total</p>
+                                    <p class="fw-bold">$2,12,000.00 M</p>
+                                </div>
+                                <div class="btn btn-primary mt-2">Pay $2,12,000.00 M
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <a href="#" class="text-white">terms & Policy @Copyright</a>
+    </div>
+
+        
+        
+
+</body>
+
+</html>
